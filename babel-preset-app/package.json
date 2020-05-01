@@ -4,7 +4,9 @@
   "description": "Babel preset for Quasar CLI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@babel/core": "^7.5.5",
@@ -25,7 +27,8 @@
     "babel-loader": "^8.0.6",
     "babel-plugin-dynamic-import-node": "^2.3.0",
     "babel-plugin-module-resolver": "^4.0.0",
-    "babel-plugin-transform-imports": "^1.0.0"
+    "babel-plugin-transform-imports": "^1.0.0",
+    "snyk": "^1.316.1"
   },
   "keywords": [
     "quasar",
@@ -62,5 +65,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
