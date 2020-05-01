@@ -69,9 +69,15 @@
     "selfsigned": "1.10.7",
     "tildify": "2.0.0",
     "user-home": "2.0.0",
-    "validate-npm-package-name": "3.0.0"
+    "validate-npm-package-name": "3.0.0",
+    "snyk": "^1.316.1"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
