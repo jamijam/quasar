@@ -89,7 +89,7 @@
     "minimist": "1.2.0",
     "ms": "2.1.2",
     "node-loader": "0.6.0",
-    "node-sass": "4.13.1",
+    "node-sass": "4.14.1",
     "open": "7.0.2",
     "optimize-css-assets-webpack-plugin": "5.0.3",
     "ouch": "2.0.0",
