@@ -91,7 +91,7 @@
     "node-loader": "0.6.0",
     "node-sass": "4.13.1",
     "open": "7.0.2",
-    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "optimize-css-assets-webpack-plugin": "5.0.5",
     "ouch": "2.0.0",
     "postcss-loader": "3.0.0",
     "postcss-rtl": "1.7.2",
