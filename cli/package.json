@@ -58,7 +58,7 @@
     "http-proxy-middleware": "0.20.0",
     "inquirer": "7.0.0",
     "metalsmith": "2.3.0",
-    "minimatch": "3.0.4",
+    "minimatch": "3.0.5",
     "minimist": "1.2.0",
     "multimatch": "2.1.0",
     "open": "7.0.0",
