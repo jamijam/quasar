@@ -76,7 +76,7 @@
     "fs-extra": "8.1.0",
     "html-minifier": "4.0.0",
     "html-webpack-plugin": "3.2.0",
-    "inquirer": "7.0.4",
+    "inquirer": "8.2.7",
     "isbinaryfile": "4.0.4",
     "launch-editor-middleware": "2.2.1",
     "lodash.debounce": "4.0.8",
